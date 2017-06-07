@@ -60,8 +60,7 @@ public class BirdWatcher {
     public void Statistics() {
         //for (Bird b : birds)
         //  show(b.getName());  
-        birds.stream()
-                .map(Bird::getName)
+        birds.stream()                
                 .forEach(System.out::println);
     }
 
