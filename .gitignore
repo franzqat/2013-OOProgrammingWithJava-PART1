@@ -40,6 +40,8 @@ Thumbs.db
 /*/build
 /*/nbproject
 /*/test
+/*/.idea
 /*/*.xml
 /*/*.txt
 /*/*.mf
+/*/*.iml
