@@ -45,41 +45,20 @@ public class HangmanLogic {
         // if the letter is not among guessed, replace it with _ in the hidden word 
 
         // return the hidden word at the end
-   /*
-        
-        String hiddWord = "_";
-        for (int i = 0; i < guessedLetters.length(); i++) {
-            char c = word.charAt(i);
-            if (word.contains(c)  {
-                hiddWord+= c;               
+   
+
+        String hiddWord = "";
+            for (int i = 0; i < word.length(); i++) {
+                String str1, str2;
+                str1= word.charAt(i) + "";
+                str2 = guessedLetters.charAt(i) + "";
+                if (str1.equals(str2) )
+                hiddWord += str1;
+                else
+                    hiddWord+="";
+ 
             }
-        }
+            return hiddWord;
 
-        
-        
-        for (int i = 0; i < word.length(); i++)  hiddWord += '_';
-
-        (hiddWord))
-        int i = 0;
-        while (i < word.length()) {
-        char c = guessedLetters.charAt(i);
-        if word.contains(c) {
-            
-            
-        }
-        
-        i++;
-        }        
-        
-                
-                
-                
-                
-            hiddWord.charAt(i)=guessedLetters.charAt(i);
-            i++;
-        }
-
-        return hiddWord;
-    }
-           */
+}
 }
